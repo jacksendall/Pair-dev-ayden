@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: medium;
+}
+
+.formwrapper .formflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+input[role=submit] {
+  width: 100%;
+}
+
+input,
+textarea {
+  margin-bottom: 2px;
+  max-height: 300px;
+}
+
+.actions,
+.brand {
+  color: white;
+}
+
+.header-wrapper {
+  background-color: #24284b;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+strong {
+  color: white;
+}
+
+.navbutton {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
