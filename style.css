@@ -55,4 +55,41 @@ strong {
 .navbutton {
   color: white;
 }
+
+.banner {
+  background-image: url(../Pair-dev-ayden/images/pexels-pixabay-209224.jpg);
+  background-size: cover;
+  text-align: right;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.banner p {
+  color: #fff;
+  font-size: 25px;
+}
+
+.banner-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.banner-btn-services {
+  background-color: #24284b;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.banner-btn-contact {
+  background-color: #fff;
+  color: #24284b;
+  border: 1px solid #24284b;
+}
 /*# sourceMappingURL=style.css.map */
