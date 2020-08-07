@@ -72,15 +72,6 @@ strong {
   font-size: 25px;
 }
 
-.banner-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-}
-
 .banner-btn-services {
   background-color: #24284b;
   color: #fff;
