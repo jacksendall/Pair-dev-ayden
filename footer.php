@@ -14,12 +14,24 @@
                     <li>Silver Street</li>
                     <li>Besthorpe</li>
                     <li>Norfolk, NR17 2NY</li>
-                    <li>Tel: </li>
+                    <li>Tel: 01953 687077 or 07894 067905</li>
                 </ul>
             </div>
             <div>  
                 <h2>Sections</h2>   
+                <ul>
+                    <li></li>
+                    <li>&gt My services</li>
+                    <li>&gt Switch Accounts</li>
+                    <li>&gt FAQ's</li>
+                    <li>&gt Contact Us</li>
+                    <li>&gt Privacy Policy</li>
+                    <li>&gt Terms &#38; Conditions</li>
+                </ul>
             </div>    
+        </div>
+        <div class="container copy-right-wrapper">
+            
         </div>
     </footer>
 </div>
