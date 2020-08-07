@@ -88,9 +88,27 @@ footer {
 .footer-wrapper {
     display: flex;
     color: #fff;
+    justify-content: space-between;
 }
 
 footer ul {
     list-style: none;
     padding: 0px;
+}
+
+footer h2 {
+    margin-bottom: 16px;
+}
+
+.copyright-partition {
+    border-top: 1px solid #fff;
+}
+
+.copyright-wrapper {
+    color: #fff;
+    text-align: center;
+}
+
+.quote-content {
+    display: flex;
 }

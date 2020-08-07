@@ -1,14 +1,20 @@
+    <div class="quote">
+        <div class="container">
+            <i class="fas fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ut velit congue viverra. Nulla commodo sagittis dapibus. Nam at commodo purus, ac ultrices elit. Integer fermentum ipsum vel eros iaculis, in tincidunt orci condimentum. Quisque neque felis, tincidunt sit amet vehicula ut, porttitor cursus metus.</p>
+            <i class="fas fa-quote-right"></i>
+        </div>
+    </div>
     <footer>
         <div class="container footer-wrapper">
-            <div>
+            <div role="aat" class="col-lg-4">
                 <img src="images/icons.png" alt="">
                 <p>AAT licensed accountant with over 15 years of accountancy experience.</p>
                 <p>My services included bookkeeping, full accounts production, payroll, VAT and tax.</p>
             </div>
-            <div>
+            <div role="contact-us" class="col-lg-4">
                 <h2>Contact Us</h2>
                 <ul>
-                    <li></li>
                     <li>Sharon Wray Accountancy services</li>
                     <li>Unit 4 Silver Farm</li>
                     <li>Silver Street</li>
@@ -17,10 +23,9 @@
                     <li>Tel: 01953 687077 or 07894 067905</li>
                 </ul>
             </div>
-            <div>  
-                <h2>Sections</h2>   
+            <div role="section" class="col-lg-2">  
+                <h2>Sections</h2>  
                 <ul>
-                    <li></li>
                     <li>&gt My services</li>
                     <li>&gt Switch Accounts</li>
                     <li>&gt FAQ's</li>
@@ -30,8 +35,10 @@
                 </ul>
             </div>    
         </div>
-        <div class="container copy-right-wrapper">
-            
+        <div class="copyright-partition">
+            <div class="container copyright-wrapper">
+                <p>Copyright &copy; Sharon Wray Accountancy Services. All Rights Reserved 2018. - Sitemap</p>
+            </div>
         </div>
     </footer>
 </div>
