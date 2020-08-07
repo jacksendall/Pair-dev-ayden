@@ -95,6 +95,7 @@ strong {
 
 footer {
   background-color: #24284b;
+  bottom: 0;
 }
 
 .footer-wrapper {
@@ -129,5 +130,23 @@ footer h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.quote-content p {
+  margin: 0px;
+}
+
+.quote-left {
+  padding-right: 20px;
+}
+
+.quote-right {
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 /*# sourceMappingURL=style.css.map */
