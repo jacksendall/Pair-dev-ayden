@@ -15,21 +15,23 @@
 <body>
 <div class="content-wrapper">
     <div class="header-wrapper">
-        <div class="container main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    <h1>Sharon Wray</h1>
+                    <h3>Accountancy Services</h3>
+                </div>
 
 
-        <div class="brand">
-            <h1>Sharon Wray</h1>
-            <h3>Accountancy Services</h3>
-        </div>
-
-
-        <div class="actions">
-            <button class="btn navbutton">My Services</button>
-            <button class="btn navbutton"> Switch Accountants</button>
-            <button class="btn navbutton">FAQ's</button>
-            <button class="btn navbutton">Contact Us</button>
-            <button class="btn navbutton"><strong>01953 687077</strong></button>
+                <div class="actions">
+                    <button class="btn navbutton">My Services</button>
+                    <button class="btn navbutton"> Switch Accountants</button>
+                    <button class="btn navbutton">FAQ's</button>
+                    <button class="btn navbutton">Contact Us</button>
+                    <button class="btn navbutton"><strong>01953 687077</strong></button>
+                </div>
+            </div>
+            
         </div>
     </div>
     <div class="banner">
