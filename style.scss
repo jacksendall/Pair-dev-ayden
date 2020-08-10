@@ -34,9 +34,10 @@ textarea{
     background-color: #24284b;
 }
 
-.main-header{
+.header-content{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .actions{
     display: flex;
@@ -49,7 +50,8 @@ strong{
 }
 
 .banner {
-    background-image: url(../Pair-dev-ayden/images/pexels-pixabay-209224.jpg);
+    // background-image: url(../Pair-dev-ayden/images/pexels-pixabay-209224.jpg); // Wamp env.
+    background-image: url(../images/pexels-pixabay-209224.jpg); // MAC OS env.
     background-size: cover;
     text-align: right;
 }
