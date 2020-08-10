@@ -13,38 +13,23 @@
     <title>Sharon Wray</title>
 </head>
 <body>
-<div class="content-wrapper">
-    <div class="header-wrapper">
-        <div class="container">
-            <div class="header-content">
-                <div class="brand">
-                    <h1>Sharon Wray</h1>
-                    <h3>Accountancy Services</h3>
+    <div class="content-wrapper">
+        <div class="header-wrapper">
+            <div class="container">
+                <div class="header-content">
+                    <div class="brand">
+                        <h1>Sharon Wray</h1>
+                        <h3>Accountancy Services</h3>
+                    </div>
+                    <div class="actions">
+                        <button class="btn navbutton">My Services</button>
+                        <button class="btn navbutton"> Switch Accountants</button>
+                        <button class="btn navbutton">FAQ's</button>
+                        <button class="btn navbutton">Contact Us</button>
+                        <button class="btn navbutton"><strong>01953 687077</strong></button>
+                    </div>
                 </div>
-
-
-                <div class="actions">
-                    <button class="btn navbutton">My Services</button>
-                    <button class="btn navbutton"> Switch Accountants</button>
-                    <button class="btn navbutton">FAQ's</button>
-                    <button class="btn navbutton">Contact Us</button>
-                    <button class="btn navbutton"><strong>01953 687077</strong></button>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    <div class="banner">
-        <div class="container banner-content">
-            <h2>fully qualified</h2>
-            <h2>aat licensed</h2>
-            <h2>accountant</h2>
-            <p>professional and affordable<br> service, contact us today<br> for a free consultation</p>
-            <div class="banner-btn">
-                <a href="" class="btn banner-btn-services">see our services</a>
-                <a href="" class="btn banner-btn-contact">contact us today</a>
             </div>
         </div>
     </div>
-</div>
     
