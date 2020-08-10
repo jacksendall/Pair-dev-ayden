@@ -26,7 +26,7 @@
                         <button class="btn navbutton"> Switch Accountants</button>
                         <button class="btn navbutton">FAQ's</button>
                         <button class="btn navbutton">Contact Us</button>
-                        <button class="btn navbutton"><strong>01953 687077</strong></button>
+                        <button class="btn navbutton phone-number"><strong>01953 687077</strong></button>
                     </div>
                 </div>
             </div>

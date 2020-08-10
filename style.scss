@@ -42,15 +42,17 @@ textarea{
 .actions{
     display: flex;
 }
-strong{
+.phone-number{
     color: white;
 }
 .navbutton{
     color: white;
 }
 
+//banner section
+
 .banner {
-    background-image: url(../Pair-dev-ayden/images/pexels-pixabay-209224.jpg); // Wamp env.
+    background-image: url(images/pexels-pixabay-209224.jpg); // Wamp env.
     // background-image: url(../images/pexels-pixabay-209224.jpg); // MAC OS env.
     background-size: cover;
     text-align: right;
@@ -78,6 +80,7 @@ strong{
     border: 1px solid $primary-color;
 }
 
+//footer section
 footer {
     background-color: $primary-color;
     bottom: 0;
@@ -106,6 +109,8 @@ footer h2 {
     color: #fff;
     text-align: center;
 }
+
+//Quote section
  .quote-content {
      display: flex;
  }
@@ -122,4 +127,20 @@ footer h2 {
     padding-left: 20px;
     display: flex;
     align-items: flex-end;
+}
+
+//Welcome section
+
+.welcome-section {
+    display: flex;
+}
+
+.welcome h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+}
+
+.welcome-img img {
+    width: 100%;
+    height: 100%;
 }
