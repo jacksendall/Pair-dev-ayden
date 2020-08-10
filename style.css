@@ -51,7 +51,7 @@ textarea {
   display: flex;
 }
 
-strong {
+.phone-number {
   color: white;
 }
 
@@ -60,7 +60,7 @@ strong {
 }
 
 .banner {
-  background-image: url(../images/pexels-pixabay-209224.jpg);
+  background-image: url(images/pexels-pixabay-209224.jpg);
   background-size: cover;
   text-align: right;
 }
@@ -142,5 +142,21 @@ footer h2 {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+.welcome-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.welcome h2 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+}
+
+.welcome-img img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
