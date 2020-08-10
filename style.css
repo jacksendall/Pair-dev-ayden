@@ -32,7 +32,7 @@ textarea {
   background-color: #24284b;
 }
 
-.header-content {
+.main-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,9 +40,6 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .actions {
@@ -60,7 +57,7 @@ strong {
 }
 
 .banner {
-  background-image: url(../images/pexels-pixabay-209224.jpg);
+  background-image: url(../Pair-dev-ayden/images/pexels-pixabay-209224.jpg);
   background-size: cover;
   text-align: right;
 }
