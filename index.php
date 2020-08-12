@@ -22,7 +22,7 @@
         <p>So if you are looking for a friendly, professional and affordable service, please contact me for a free consultation to discuss your needs.</p>
         <p><strong>A fixed fee or payment plans are available so that you are able to plan for the future without hidden costs.</strong></p>
     </div>
-    <div class="col-lg-6 welcome-img" id="welcome-img">
+    <div class="welcome-img col-lg-6">
     <img src="images/pexels-bongkarn-thanyakij-3803252.jpg" alt="office worker">
     </div>
 </div>

@@ -12,8 +12,11 @@
             </div>
 
             <textarea class="col-12" name="message" placeholder="Enter Message Here"></textarea>
-            <input role="submit" class="btn btn-success" type="button" value="Submit" name="submit-message">
+            <input class="btn btn-success" type="button" value="Submit" name="sbmt-btn">
 
+            
+            
+            
         </form>
     </div>
 </div>
