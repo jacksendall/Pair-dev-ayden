@@ -26,7 +26,14 @@
     <img src="images/pexels-bongkarn-thanyakij-3803252.jpg" alt="office worker">
     </div>
 </div>
-
+<div class="contact-us">
+    <div class="container">
+        <div class="btn">Contact Us Today
+            <i class="fas fa-copy"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+</div>
 <?php
     require 'footer.php';
 ?>

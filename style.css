@@ -97,9 +97,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 footer ul {
@@ -131,11 +130,11 @@ footer h2 {
 }
 
 .quote-left {
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .quote-right {
-  padding-left: 20px;
+  margin-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,5 +161,39 @@ footer h2 {
 
 #welcome-img {
   padding-right: 0px;
+}
+
+.welcome {
+  padding-left: 0px;
+}
+
+.contact-us {
+  background-color: #24284b;
+  color: white;
+  padding: 50px 0 50px 0;
+}
+
+.contact-us p {
+  display: inline;
+}
+
+.contact-us .btn {
+  float: right;
+  margin-left: 30px;
+  background-color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  color: #24284b;
+  padding: 15px 50px;
+}
+
+.contact-us .btn i {
+  padding-left: 5px;
+}
+
+.contact-us .btn:hover {
+  background-color: #24284b;
+  color: #fff;
+  border: 2px solid #fff;
 }
 /*# sourceMappingURL=style.css.map */
