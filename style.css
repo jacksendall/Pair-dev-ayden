@@ -173,27 +173,47 @@ footer h2 {
   padding: 50px 0 50px 0;
 }
 
-.contact-us p {
-  display: inline;
-}
-
 .contact-us .btn {
-  float: right;
-  margin-left: 30px;
   background-color: #fff;
   font-size: 28px;
   font-weight: 600;
   color: #24284b;
-  padding: 15px 50px;
-}
-
-.contact-us .btn i {
-  padding-left: 5px;
+  padding: 10px 30px;
 }
 
 .contact-us .btn:hover {
   background-color: #24284b;
   color: #fff;
   border: 2px solid #fff;
+}
+
+.contact-us-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contact-us-p p {
+  font-size: 16px;
+}
+
+.contact-us-p {
+  padding-left: 0px;
+}
+
+.btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

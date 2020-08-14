@@ -27,11 +27,14 @@
     </div>
 </div>
 <div class="contact-us">
-    <div class="container">
-        <div class="btn">Contact Us Today
-            <i class="fas fa-copy"></i>
+    <div class="container contact-us-flex">
+        <div class="col-lg-6 contact-us-p">
+            <p>Book your <strong>FREE</strong> accountancy consultation today by contacting<br> me on 07894 067905 or by email: accounts@sharonwray.co.uk,<br>alternatively fillout my online contact form</p>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="col-lg-6 btn-wrapper">
+            <div class="btn">Contact Us Today
+            </div>
+        </div>
     </div>
 </div>
 <?php

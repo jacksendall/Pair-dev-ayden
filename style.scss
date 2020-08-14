@@ -161,24 +161,34 @@ footer h2 {
     background-color: $primary-color;
     color: white;
     padding:50px 0 50px 0;
-    p {
-        display: inline;
-    }
     .btn {
-        float: right;
-        margin-left: 30px;
         background-color: #fff;
         font-size: 28px;
         font-weight: 600;
         color: $primary-color;
-        padding: 15px 50px;
-        i {
-            padding-left: 5px;
-        }
+        padding: 10px 30px;
         &:hover {
             background-color: $primary-color;
             color: #fff;
             border: 2px solid #fff;
         }
     }
+}
+
+.contact-us-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact-us-p p{
+    font-size: 16px;
+}
+.contact-us-p {
+    padding-left: 0px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
 }
