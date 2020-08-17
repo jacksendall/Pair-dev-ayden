@@ -7,13 +7,7 @@ h1{
 p{
     font-size: medium;
 }
-.formwrapper{
-    .formflex{
-        display: flex;
-        width: 100%;
-        
-    }
-}
+
 input[role=submit]{
     width: 100%;
 }
@@ -160,7 +154,7 @@ footer h2 {
     padding-left: 0px;
 }
 
-//contact us
+//contact us HOME PAGE!!!
 
 .contact-us {
     background-color: $primary-color;
@@ -197,3 +191,54 @@ footer h2 {
     display: flex;
     justify-content: center;
 }
+
+// contact us page
+
+.formwrapper {
+    padding-top: 10px;
+}
+
+.contact-us-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.contact-input {
+    margin-bottom: 15px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+.contact-input:hover {
+    border-color: #333;
+}
+
+.contact-checkbox {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.tick-box {
+    margin: 7px 10px 0 0;
+}
+
+.contact-details {
+    padding-left: 50px;
+}
+
+.contact-details h2 {
+    margin-bottom: 20px;
+}
+ 
+.contact-us-number {
+    font-size: 30px;
+    color: $primary-color;
+}
+
+.contact-us-email {
+    font-size: 24px;
+    color: $primary-color;
+}
+

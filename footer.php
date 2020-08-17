@@ -1,10 +1,4 @@
-    <div class="quote">
-        <div class="container quote-content">
-            <div class="quote-left"><i class="fas fa-quote-left"></i></div>
-            <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ut velit congue viverra. Nulla commodo sagittis dapibus. Nam at commodo purus, ac ultrices elit. Integer fermentum ipsum vel eros iaculis, in tincidunt orci condimentum. Quisque neque felis, tincidunt sit amet vehicula ut, porttitor cursus metus.</p></div>
-            <div class="quote-right"><i class="fas fa-quote-right"></i></div>
-        </div>
-    </div>
+
     <footer>
         <div class="container footer-wrapper">
             <div role="aat" class="col-lg-4">
