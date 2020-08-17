@@ -5,6 +5,7 @@
 
 <div class="container col-lg-8 contact-us-wrapper">
     <div class="formwrapper">
+        <?php require 'contact.inc.php' ?>
         <form method="POST" action="contact.inc.php">
             <input role="name" class="col-6 contact-input" type="text" name="name" placeholder="Your Name">
             <input role="email" class="col-6 contact-input" type="email" name="mailid" placeholder="Email Address">
@@ -16,7 +17,7 @@
             </div>
             <div class="g-recaptcha" data-sitekey="6LfK_b8ZAAAAAL8ad-IIXgZLS76U0_ci3lyWCT4v"></div>
 
-            <input role="submit" class="btn btn-success" type="button" value="Submit" name="submit-message">
+            <button class="btn btn-success" name="submit-message">Submit</button>
 
         </form>
     </div>
