@@ -12,6 +12,8 @@
             </div>
 
             <textarea class="col-12" name="message" placeholder="Enter Message Here"></textarea>
+            <div class="g-recaptcha" data-sitekey="6LfK_b8ZAAAAAL8ad-IIXgZLS76U0_ci3lyWCT4v"></div>
+
             <input role="submit" class="btn btn-success" type="button" value="Submit" name="submit-message">
 
         </form>

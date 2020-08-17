@@ -6,7 +6,7 @@
     <meta name="description" content="JAck & Ayden's Pair Project">
     <meta name="keywords" content="HTML,CSS,Reflection,Netmatters,Pair Project">
     <meta name="author" content="Jack Sendall, Ayden Cole">
-    
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -22,11 +22,11 @@
                         <h3>Accountancy Services</h3>
                     </div>
                     <div class="actions">
-                        <button class="btn navbutton">My Services</button>
-                        <button class="btn navbutton"> Switch Accountants</button>
-                        <button class="btn navbutton">FAQ's</button>
-                        <button class="btn navbutton">Contact Us</button>
-                        <button class="btn navbutton phone-number"><strong>01953 687077</strong></button>
+                        <a href="../Pair-dev-ayden" class="btn navbutton">My Services</a>
+                        <a href="../Pair-dev-ayden" class="btn navbutton"> Switch Accountants</a>
+                        <a href="../Pair-dev-ayden" class="btn navbutton">FAQ's</a>
+                        <a href="../Pair-dev-ayden/contact.php" class="btn navbutton">Contact Us</a>
+                        <a class="btn navbutton phone-number"><strong>01953 687077</strong></a>
                     </div>
                 </div>
             </div>

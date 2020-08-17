@@ -41,12 +41,18 @@ textarea{
 }
 .actions{
     display: flex;
+    
+    
 }
 .phone-number{
     color: white;
 }
 .navbutton{
     color: white;
+    align-self: center;
+    &:hover{
+        color: white;
+    }
 }
 
 //banner section

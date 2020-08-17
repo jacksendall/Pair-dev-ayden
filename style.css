@@ -57,6 +57,13 @@ textarea {
 
 .navbutton {
   color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.navbutton:hover {
+  color: white;
 }
 
 .banner {
