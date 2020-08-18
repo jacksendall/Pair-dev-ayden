@@ -3,7 +3,7 @@
 ?>
 
 
-<div class="container col-lg-8 contact-us-wrapper">
+<div class="container contact-us-wrapper">
     <div class="formwrapper">
         <?php require 'contact.inc.php' ?>
         <form method="POST" action="contact.inc.php">
