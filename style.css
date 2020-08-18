@@ -331,4 +331,34 @@ footer h4 {
 .label-symbol {
   color: red;
 }
+
+.faq-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.questions-dropdown h5 {
+  margin-bottom: 20px;
+  color: #24284b;
+}
+
+.faq-header {
+  margin: 50px 0 50px 0;
+  color: #24284b;
+}
+
+.faq-list {
+  list-style: none;
+}
+
+.faq-list li {
+  margin-bottom: 10px;
+}
 /*# sourceMappingURL=style.css.map */

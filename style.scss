@@ -298,3 +298,30 @@ footer h4 {
 .label-symbol {
     color: red;
 }
+
+//FAQ section
+
+.faq-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.questions-dropdown h5 {
+    margin-bottom: 20px;
+    color: $primary-color;
+}
+
+.faq-header {
+    margin: 50px 0 50px 0;
+    color: $primary-color;
+}
+
+.faq-list {
+    list-style: none;
+}
+
+.faq-list li {
+    margin-bottom: 10px;
+}
