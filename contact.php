@@ -8,21 +8,22 @@
         <?php require 'contact.inc.php' ?>
         <form method="POST" action="contact.inc.php">
             <div class="input-labels">
-                <label for="name" class="col-6 contact-top-label">Name <span>*</span></label>
-                <label for="name" class="col-6 contact-bottom-label">Email <span>*</span></label>
+                <label for="name" class="col-6 contact-top-label">Name <span class="label-symbol">*</span></label>
+                <label for="name" class="col-6 contact-bottom-label">Email <span class="label-symbol">*</span></label>
             </div>
             <div class="contact-row-a">
                 <input role="name" class="col-6 contact-input contact-name" type="text" name="name">
                 <input role="email" class="col-6 contact-input contact-email" type="email" name="mailid">
             </div>
             <div class="input-labels">
-                <label for="name" class="col-6 contact-top-label">Phone Number <span>*</span></label>
-                <label for="name" class="col-6 contact-bottom-label">Subject <span>*</span></label>
+                <label for="name" class="col-6 contact-top-label">Phone Number <span class="label-symbol">*</span></label>
+                <label for="name" class="col-6 contact-bottom-label">Subject <span class="label-symbol">*</span></label>
             </div>
             <div class="contact-row-b">
                 <input role="phone" class="col-6 contact-input contact-phone" type="phone" name="phone">
                 <input role="subject" class="col-6 contact-input contact-subject" type="subject" name="subject">
             </div>
+            <label for="name" class="col-6 contact-top-label">Message <span class="label-symbol">*</span></label>
             <textarea class="col-12 contact-message" name="message" placeholder="Enter Message Here"></textarea>
             <div class="col-12 contact-checkbox">   
                 <input type="checkbox" name="marketing" class="tick-box">
