@@ -12,7 +12,6 @@ input[role=submit] {
 
 input,
 textarea {
-  margin-bottom: 2px;
   max-height: 300px;
 }
 
@@ -230,9 +229,9 @@ footer h2 {
 }
 
 .contact-input {
-  margin-bottom: 15px;
   border: 1px solid #666;
   border-radius: 5px;
+  margin-bottom: 15px;
 }
 
 .contact-input:hover {
@@ -271,9 +270,56 @@ footer h2 {
   color: #24284b;
 }
 
-.contact-row-a {
+.contact-row-a,
+.contact-row-b {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 98%;
+}
+
+.btn-success {
+  margin-top: 15px;
+  background-color: #24284b;
+  border-color: #24284b;
+  width: 100%;
+  padding: auto;
+  font-size: 20px;
+}
+
+.btn-success:hover {
+  background-color: #fff;
+  color: #24284b;
+  border: 2px solid #24284b;
+}
+
+.contact-name,
+.contact-phone {
+  margin-right: 15px;
+}
+
+.contact-message {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #666;
+}
+
+.input-labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+}
+
+.contact-top-label {
+  padding: 0;
+}
+
+.contact-bottom-label {
+  padding-left: 6px;
+}
+
+.input-labels span {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */

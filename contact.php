@@ -7,15 +7,23 @@
     <div class="formwrapper">
         <?php require 'contact.inc.php' ?>
         <form method="POST" action="contact.inc.php">
+            <div class="input-labels">
+                <label for="name" class="col-6 contact-top-label">Name <span>*</span></label>
+                <label for="name" class="col-6 contact-bottom-label">Email <span>*</span></label>
+            </div>
             <div class="contact-row-a">
-                <input role="name" class="col-6 contact-input" type="text" name="name" placeholder="Your Name">
-                <input role="email" class="col-6 contact-input" type="email" name="mailid" placeholder="Email Address">
+                <input role="name" class="col-6 contact-input contact-name" type="text" name="name">
+                <input role="email" class="col-6 contact-input contact-email" type="email" name="mailid">
+            </div>
+            <div class="input-labels">
+                <label for="name" class="col-6 contact-top-label">Phone Number <span>*</span></label>
+                <label for="name" class="col-6 contact-bottom-label">Subject <span>*</span></label>
             </div>
             <div class="contact-row-b">
-                <input role="phone" class="col-6 contact-input" type="phone" name="phone" placeholder="Phone Number">
-                <input role="subject" class="col-6 contact-input" type="subject" name="subject" placeholder="Subject">
+                <input role="phone" class="col-6 contact-input contact-phone" type="phone" name="phone">
+                <input role="subject" class="col-6 contact-input contact-subject" type="subject" name="subject">
             </div>
-            <textarea class="col-12" name="message" placeholder="Enter Message Here"></textarea>
+            <textarea class="col-12 contact-message" name="message" placeholder="Enter Message Here"></textarea>
             <div class="col-12 contact-checkbox">   
                 <input type="checkbox" name="marketing" class="tick-box">
                 <p class="inline-checkbox">Please tick this box if you wish to receive marketing information from us. Please see our <a href="/privacy">Privacy Policy</a> for more information on how we use your data.</p>
