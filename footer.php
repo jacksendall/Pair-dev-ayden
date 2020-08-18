@@ -7,7 +7,7 @@
                 <p>My services included bookkeeping, full accounts production, payroll, VAT and tax.</p>
             </div>
             <div role="contact-us" class="col-lg-4">
-                <h2>Contact Us</h2>
+                <h4>Contact Us</h4>
                 <ul>
                     <li>Sharon Wray Accountancy services</li>
                     <li>Unit 4 Silver Farm</li>
@@ -18,7 +18,7 @@
                 </ul>
             </div>
             <div role="section" class="col-lg-2">  
-                <h2>Sections</h2>  
+                <h4>Sections</h4>  
                 <ul>
                     <li>&gt My services</li>
                     <li>&gt Switch Accounts</li>

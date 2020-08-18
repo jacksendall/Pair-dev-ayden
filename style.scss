@@ -82,6 +82,8 @@ textarea{
 footer {
     background-color: $primary-color;
     bottom: 0;
+    padding-top: 20px;
+    font-weight: 600;
 }
 
 .footer-wrapper {
@@ -95,8 +97,9 @@ footer ul {
     padding: 0px;
 }
 
-footer h2 {
+footer h4 {
     margin-bottom: 16px;
+    font-weight: 650;
 }
 
 .copyright-partition {
@@ -106,6 +109,11 @@ footer h2 {
 .copyright-wrapper {
     color: #fff;
     text-align: center;
+    padding: 20px 15px 20px 15px;
+}
+
+.copyright-wrapper p {
+    margin: 0;
 }
 
 //Quote section
