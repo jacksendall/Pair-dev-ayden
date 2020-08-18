@@ -281,7 +281,7 @@ footer h2 {
 .btn-success {
   margin-top: 15px;
   background-color: #24284b;
-  border-color: #24284b;
+  border: 2px solid #24284b;
   width: 100%;
   padding: auto;
   font-size: 20px;
