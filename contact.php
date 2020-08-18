@@ -24,7 +24,7 @@
                 <input role="subject" class="col-6 contact-input contact-subject" type="subject" name="subject">
             </div>
             <label for="name" class="col-6 contact-top-label">Message <span class="label-symbol">*</span></label>
-            <textarea class="col-12 contact-message" name="message" placeholder="Enter Message Here"></textarea>
+            <textarea class="col-12 contact-message" name="message"></textarea>
             <div class="col-12 contact-checkbox">   
                 <input type="checkbox" name="marketing" class="tick-box">
                 <p class="inline-checkbox">Please tick this box if you wish to receive marketing information from us. Please see our <a href="/privacy">Privacy Policy</a> for more information on how we use your data.</p>
