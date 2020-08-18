@@ -7,9 +7,14 @@
     <div class="formwrapper">
         <?php require 'contact.inc.php' ?>
         <form method="POST" action="contact.inc.php">
-            <input role="name" class="col-6 contact-input" type="text" name="name" placeholder="Your Name">
-            <input role="email" class="col-6 contact-input" type="email" name="mailid" placeholder="Email Address">
-            <input role="phone" class="col-6 contact-input" type="phone" name="phone" placeholder="Phone Number">
+            <div class="contact-row-a">
+                <input role="name" class="col-6 contact-input" type="text" name="name" placeholder="Your Name">
+                <input role="email" class="col-6 contact-input" type="email" name="mailid" placeholder="Email Address">
+            </div>
+            <div class="contact-row-b">
+                <input role="phone" class="col-6 contact-input" type="phone" name="phone" placeholder="Phone Number">
+                <input role="subject" class="col-6 contact-input" type="subject" name="subject" placeholder="Subject">
+            </div>
             <textarea class="col-12" name="message" placeholder="Enter Message Here"></textarea>
             <div class="col-12 contact-checkbox">   
                 <input type="checkbox" name="marketing" class="tick-box">
