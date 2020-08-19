@@ -1,6 +1,10 @@
 @import "colors";
 @import "contact";
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 h1{
     text-align: center;
 }
@@ -83,6 +87,22 @@ textarea{
     border: 1px solid $primary-color;
 }
 
+.banner-content {
+   h2 { padding-top: 60px;
+        text-transform: uppercase;
+   }
+   p {
+       text-transform: uppercase;
+   }
+}
+
+.banner-btn {
+    padding-bottom: 60px;
+    a {
+        padding: 10px 40px;
+    }
+}  
+
 //footer section
 footer {
     background-color: $primary-color;
@@ -164,6 +184,7 @@ footer h4 {
 
 .welcome {
     padding-left: 0px;
+    margin: 40px 0;
 }
 
 //contact us HOME PAGE!!!
@@ -201,7 +222,7 @@ footer h4 {
 
 .btn-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 
 // contact us page
@@ -403,9 +424,6 @@ footer h4 {
 .sa-page-header {
     padding: 50px 0 50px 0;
     color: $primary-color;
-    h1 {
-        font-size: 3rem;
-    }
 }
 
 .sa-page-section {
@@ -422,9 +440,11 @@ footer h4 {
         list-style: none;
         line-height: 40px;
     }
-    i {
-        padding-right: 10px;
+    li:before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f005";
         color: $primary-color;
+        padding-right: 10px;
     }
 }
 

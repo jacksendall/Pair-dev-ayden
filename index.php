@@ -3,15 +3,15 @@
 ?>
 
 <div class="banner">
-    <div class="container banner-content">
-        <h2>fully qualified</h2>
-        <h2>aat licensed</h2>
-        <h2>accountant</h2>
-        <p>professional and affordable<br> service, contact us today<br> for a free consultation</p>
-        <div class="banner-btn">
-            <a href="" class="btn banner-btn-services">see our services</a>
-            <a href="" class="btn banner-btn-contact">contact us today</a>
-        </div>
+    <div class="container">
+        <div class="banner-content">
+            <h2>fully qualified<br> aat licensed <br>accountant</h2>
+            <p>professional and affordable<br> service, contact us today<br> for a free consultation</p>
+            <div class="banner-btn">
+                <a href="" class="btn banner-btn-services">See Our Services</a>
+                <a href="" class="btn banner-btn-contact">Contact Us Today</a>
+            </div>
+        </div>    
     </div>
 </div>
 <div class="container welcome-section">
@@ -32,8 +32,7 @@
             <p>Book your <strong>FREE</strong> accountancy consultation today by contacting<br> me on 07894 067905 or by email: accounts@sharonwray.co.uk,<br>alternatively fillout my online contact form</p>
         </div>
         <div class="col-lg-6 btn-wrapper">
-            <div class="btn">Contact Us Today
-            </div>
+            <div class="btn">Contact Us Today</div>
         </div>
     </div>
 </div>

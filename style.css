@@ -1,3 +1,7 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 h1 {
   text-align: center;
 }
@@ -96,6 +100,23 @@ textarea {
   border: 1px solid #24284b;
 }
 
+.banner-content h2 {
+  padding-top: 60px;
+  text-transform: uppercase;
+}
+
+.banner-content p {
+  text-transform: uppercase;
+}
+
+.banner-btn {
+  padding-bottom: 60px;
+}
+
+.banner-btn a {
+  padding: 10px 40px;
+}
+
 footer {
   background-color: #24284b;
   bottom: 0;
@@ -183,6 +204,7 @@ footer h4 {
 
 .welcome {
   padding-left: 0px;
+  margin: 40px 0;
 }
 
 .contact-us {
@@ -230,9 +252,9 @@ footer h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .formwrapper {
@@ -456,10 +478,6 @@ footer h4 {
   color: #24284b;
 }
 
-.sa-page-header h1 {
-  font-size: 3rem;
-}
-
 .sa-page-section {
   padding: 50px 0 50px 0;
 }
@@ -479,9 +497,11 @@ footer h4 {
   line-height: 40px;
 }
 
-.sa-page-section i {
-  padding-right: 10px;
+.sa-page-section li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f005";
   color: #24284b;
+  padding-right: 10px;
 }
 
 .sa-contact-button {
