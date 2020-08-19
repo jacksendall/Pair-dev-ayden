@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             } 
         
             else {
-                $sql = "INSERT INTO messages (cust_name, cust_message, e_mail, cust_phone, ismarketing) VALUES (?, ?, ?, ?, ?)";
+                $sql = "INSERT INTO messages (cust_name, cust_message, e_mail, ismarketing, cust_phone) VALUES (?, ?, ?, ?, ?)";
                 $stmt = mysqli_stmt_init($conn);
                 if (!mysqli_stmt_prepare($stmt, $sql)) {
                     header("Location: contact.php?error=sqlerror");
@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 }
                 else {
         
-                    mysqli_stmt_bind_param($stmt, "sssii", $name, $message, $mail, $phone, $data);
+                    mysqli_stmt_bind_param($stmt, "sssii", $name, $message, $mail, $data, $phone);
                     mysqli_stmt_execute($stmt);
                     header("Location: contact.php?enquiry=success");
                     exit();
@@ -75,8 +75,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         header("Location: contact.php");
         exit();
     }
-} else { ?>
-    
-    
-    
-    <?php } ?>
+}
