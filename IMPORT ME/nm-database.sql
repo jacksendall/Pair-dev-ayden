@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Aug 17, 2020 at 04:56 PM
+-- Generation Time: Aug 19, 2020 at 02:46 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -32,13 +32,19 @@ DROP TABLE IF EXISTS `messages`;
 CREATE TABLE IF NOT EXISTS `messages` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `cust_name` text NOT NULL,
-  `cust_subject` text NOT NULL,
   `cust_message` text NOT NULL,
   `e_mail` text NOT NULL,
   `ismarketing` int(11) NOT NULL,
   `cust_phone` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `messages`
+--
+
+INSERT INTO `messages` (`id`, `cust_name`, `cust_message`, `e_mail`, `ismarketing`, `cust_phone`) VALUES
+(14, 'jacksendall@gmail.com', 'war crimes blud', 'jacksendall@gmail.com', 1, '447840961166');
 
 -- --------------------------------------------------------
 
