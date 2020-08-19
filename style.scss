@@ -166,11 +166,6 @@ footer h4 {
     display: flex;
 }
 
-.welcome h2 {
-    text-transform: uppercase;
-    border-bottom: 1px solid #000;
-}
-
 .welcome-img {
     img { 
         width: 100%;
@@ -185,6 +180,12 @@ footer h4 {
 .welcome {
     padding-left: 0px;
     margin: 40px 0;
+    h2 {
+        padding: 0px 0px 10px 0px;
+        border-bottom: 1px solid #333;
+        color: $primary-color;
+        text-transform: uppercase;
+    }
 }
 
 //contact us HOME PAGE!!!
@@ -259,11 +260,12 @@ footer h4 {
 
 .contact-details {
     padding-left: 50px;
+    h2 {
+        margin-bottom: 20px;
+    }
 }
 
-.contact-details h2 {
-    margin-bottom: 20px;
-}
+.contact-details 
  
 .contact-us-number {
     font-size: 30px;

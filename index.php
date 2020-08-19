@@ -16,7 +16,7 @@
 </div>
 <div class="container welcome-section">
     <div class="welcome col-lg-6">
-        <h2>welcome</h2>
+        <h2 class="col-4">welcome</h2>
         <p>I am a AAT licensed accountant with over 15 years of accountancy experience and my aim is to make your life easier so you can focus on growth and success.</p>
         <p>Wether you are a small business with employees, sole trader or an individual, my services range from bookkeeping tofull accounts production, payroll, VAT and tax.</p>
         <p>So if you are looking for a friendly, professional and affordable service, please contact me for a free consultation to discuss your needs.</p>

@@ -188,11 +188,6 @@ footer h4 {
   display: flex;
 }
 
-.welcome h2 {
-  text-transform: uppercase;
-  border-bottom: 1px solid #000;
-}
-
 .welcome-img img {
   width: 100%;
   height: 100%;
@@ -205,6 +200,13 @@ footer h4 {
 .welcome {
   padding-left: 0px;
   margin: 40px 0;
+}
+
+.welcome h2 {
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px solid #333;
+  color: #24284b;
+  text-transform: uppercase;
 }
 
 .contact-us {
@@ -301,6 +303,7 @@ footer h4 {
   margin-bottom: 20px;
 }
 
+.contact-details
 .contact-us-number {
   font-size: 30px;
   color: #24284b;
