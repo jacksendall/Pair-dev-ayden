@@ -22,8 +22,8 @@
                         <h3>Accountancy Services</h3>
                     </div>
                     <div class="actions">
-                        <a href="../Pair-dev-ayden" class="btn navbutton">My Services</a>
-                        <a href="../Pair-dev-ayden" class="btn navbutton"> Switch Accountants</a>
+                        <a href="../Pair-dev-ayden/services.php" class="btn navbutton">My Services</a>
+                        <a href="../Pair-dev-ayden/switch-accountants.php" class="btn navbutton"> Switch Accountants</a>
                         <a href="../Pair-dev-ayden/faq.php" class="btn navbutton">FAQ's</a>
                         <a href="../Pair-dev-ayden/contact.php" class="btn navbutton">Contact Us</a>
                         <a class="btn navbutton phone-number"><strong>01953 687077</strong></a>
