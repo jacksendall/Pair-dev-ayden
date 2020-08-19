@@ -399,6 +399,11 @@ footer h4 {
   margin-top: 20px;
 }
 
+.services-header h1 {
+  margin-bottom: 30px;
+  color: #24284b;
+}
+
 .services-content {
   border: 1px solid #aaa;
   border-radius: 5px;
@@ -407,13 +412,14 @@ footer h4 {
   margin-bottom: 20px;
 }
 
-.services-read-more h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-}
-
 .services-read-more {
   padding: 20px 5px 20px 5px;
+}
+
+.services-read-more h2 {
+  color: #24284b;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
 .services-read-more a {
@@ -450,22 +456,32 @@ footer h4 {
   color: #24284b;
 }
 
-.sa-page-section-a {
+.sa-page-header h1 {
+  font-size: 3rem;
+}
+
+.sa-page-section {
   padding: 50px 0 50px 0;
 }
 
-.sa-page-section-a h2 {
+.sa-page-section h2 {
   margin-top: 30px;
   margin-bottom: 30px;
   color: #24284b;
 }
 
-.sa-page-section-a p {
+.sa-page-section p {
   padding: 0 15px;
 }
 
-.sa-page-section-a ul {
-  list-style: square;
+.sa-page-section ul {
+  list-style: none;
+  line-height: 40px;
+}
+
+.sa-page-section i {
+  padding-right: 10px;
+  color: #24284b;
 }
 
 .sa-contact-button {
