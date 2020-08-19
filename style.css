@@ -98,6 +98,7 @@ textarea {
   background-color: #fff;
   color: #24284b;
   border: 1px solid #24284b;
+  margin-left: 10px;
 }
 
 .banner-content h2 {
@@ -158,30 +159,6 @@ footer h4 {
   margin: 0;
 }
 
-.quote-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.quote-content p {
-  margin: 0px;
-}
-
-.quote-left {
-  margin-right: 20px;
-}
-
-.quote-right {
-  margin-left: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
 .welcome-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,6 +184,44 @@ footer h4 {
   border-bottom: 1px solid #333;
   color: #24284b;
   text-transform: uppercase;
+}
+
+.quote-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.quote-content p {
+  margin: 0px;
+}
+
+.quote-left {
+  margin-right: 20px;
+  margin-top: -10px;
+  font-size: 36px;
+  color: #24284b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.quote-right {
+  margin-left: 20px;
+  margin-bottom: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #24284b;
+  font-size: 36px;
 }
 
 .contact-us {

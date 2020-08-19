@@ -85,6 +85,7 @@ textarea{
     background-color: #fff;
     color: $primary-color;
     border: 1px solid $primary-color;
+    margin-left: 10px;
 }
 
 .banner-content {
@@ -141,25 +142,6 @@ footer h4 {
     margin: 0;
 }
 
-//Quote section
- .quote-content {
-     display: flex;
- }
-
- .quote-content p {
-     margin: 0px;
- }
-
- .quote-left {
-     margin-right: 20px;
- }
-
- .quote-right {
-    margin-left: 20px;
-    display: flex;
-    align-items: flex-end;
-}
-
 //Welcome section
 
 .welcome-section {
@@ -186,6 +168,34 @@ footer h4 {
         color: $primary-color;
         text-transform: uppercase;
     }
+}
+
+//Quote section
+.quote-content {
+    display: flex;
+    p {
+        margin: 0px;
+    }
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.quote-left {
+    margin-right: 20px;
+    margin-top: -10px;
+    font-size: 36px;
+    color: $primary-color;
+    display: flex;
+    align-items: flex-start;
+}
+
+.quote-right {
+   margin-left: 20px;
+   margin-bottom: -10px;
+   display: flex;
+   align-items: flex-end;
+   color: $primary-color;
+   font-size: 36px;
 }
 
 //contact us HOME PAGE!!!
