@@ -18,8 +18,12 @@
             <div class="container">
                 <div class="header-content">
                     <div class="brand">
-                        <h1>Sharon Wray</h1>
-                        <h3>Accountancy Services</h3>
+                        <!-- <h1>Sharon Wray</h1>
+                        <h3>Accountancy Services</h3> -->
+
+                        <img src="images/sharon-wray.png" alt="Sharon Wray Accountancy Services">
+
+
                     </div>
                     <div class="actions">
                         <a href="../Pair-dev-ayden/services.php" class="btn navbutton">My Services</a>

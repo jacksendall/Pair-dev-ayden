@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  height: 100%;
 }
 
 h1 {
@@ -22,6 +23,12 @@ textarea {
 .actions,
 .brand {
   color: white;
+}
+
+.actions img,
+.brand img {
+  padding: 10px 0px;
+  height: 80px;
 }
 
 .flex-wrapper {
