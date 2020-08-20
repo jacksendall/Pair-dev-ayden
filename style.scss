@@ -4,7 +4,6 @@
 body {
     font-family: "Poppins", sans-serif;
     height: 100%;
-    overflow: hidden;
 }
 
 h1{
@@ -35,7 +34,7 @@ textarea{
         height: auto;
         width: 100%;
         max-width: 240px;
-        min-width: ;
+        min-width: 150px;
     }
 }
 
@@ -269,8 +268,7 @@ footer h4 {
 }
 
 .btn-wrapper {
-    display: flex;
-    justify-content: end;
+    text-align: right;
 }
 
 // contact us page

@@ -20,10 +20,6 @@ textarea {
   max-height: 300px;
 }
 
-html {
-  width: 100%;
-}
-
 .actions,
 .brand {
   display: -webkit-box;
@@ -321,12 +317,7 @@ footer h4 {
 }
 
 .btn-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  text-align: right;
 }
 
 .formwrapper {
