@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="header-content">
                     <div class="brand col-lg-4 col-sm-6">
-                        <img src="images/sharon-wray.png" alt="Sharon Wray Accountancy Services">
+                        <a href="../Pair-dev-ayden/index.php"><img src="images/sharon-wray.png" alt="Sharon Wray Accountancy Services"></a>
                     </div>
                     <div class="actions col-lg-8 col-sm-6">
                         <a href="../Pair-dev-ayden/services.php" class="btn navbutton">My Services</a>
