@@ -58,6 +58,11 @@ textarea{
     align-items: center;
 }
 
+.burger-menu {
+    font-size: 40px;
+    display: none;
+}
+
 .navbutton{
     color: white;
     align-self: center;
@@ -69,26 +74,6 @@ textarea{
 .phone-number {
     i {
         padding-right: 5px;
-    }
-}
-
-.burger-menu {
-    background-color: #fff;
-    height: 60px;
-    width: 60px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    padding: 10px 0px;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    .burger-line {
-        background-color: $primary-color;
-        width: 40px;
-        height: 5px;
-        border: 1px solid $primary-color;
-        border-radius: 10px;
     }
 }
 

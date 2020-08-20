@@ -11,13 +11,10 @@
         display: none;
     }
     .burger-menu {
-        display: flex;
+        display: block;
     }
     .phone-number {
         display: block;
-    }
-    .banner-btn-services {
-        margin-bottom: 10px;
     }
     .welcome-img {
         display: none;
@@ -28,5 +25,18 @@
     .btn-wrapper {
         text-align: left;
         padding: 10px 0px 0px 0px;
+    }
+    .contact-us-wrapper {
+        flex-wrap: wrap;
+    }
+    .contact-details {
+        margin-top: 60px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 460px) {
+    .banner-btn-services {
+        margin-bottom: 10px;
     }
 }

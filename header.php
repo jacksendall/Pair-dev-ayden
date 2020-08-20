@@ -26,11 +26,7 @@
                         <a href="../Pair-dev-ayden/faq.php" class="btn navbutton">FAQ's</a>
                         <a href="../Pair-dev-ayden/contact.php" class="btn navbutton">Contact Us</a>
                         <a class="btn navbutton phone-number"><i class="fas fa-phone-alt"></i><strong>01953 687077</strong></a>
-                        <div class="burger-menu">
-                            <div class="burger-line"></div>
-                            <div class="burger-line"></div>
-                            <div class="burger-line"></div>
-                        </div>
+                        <i class="fas fa-bars burger-menu"></i>
                     </div>
                 </div>
             </div>

@@ -82,6 +82,11 @@ textarea {
           align-items: center;
 }
 
+.burger-menu {
+  font-size: 40px;
+  display: none;
+}
+
 .navbutton {
   color: white;
   -ms-flex-item-align: center;
@@ -95,32 +100,6 @@ textarea {
 
 .phone-number i {
   padding-right: 5px;
-}
-
-.burger-menu {
-  background-color: #fff;
-  height: 60px;
-  width: 60px;
-  border: 2px solid #fff;
-  border-radius: 5px;
-  padding: 10px 0px;
-  display: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.burger-menu .burger-line {
-  background-color: #24284b;
-  width: 40px;
-  height: 5px;
-  border: 1px solid #24284b;
-  border-radius: 10px;
 }
 
 .banner {
@@ -602,15 +581,10 @@ footer h4 {
     display: none;
   }
   .burger-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
   }
   .phone-number {
     display: block;
-  }
-  .banner-btn-services {
-    margin-bottom: 10px;
   }
   .welcome-img {
     display: none;
@@ -622,6 +596,20 @@ footer h4 {
   .btn-wrapper {
     text-align: left;
     padding: 10px 0px 0px 0px;
+  }
+  .contact-us-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contact-details {
+    margin-top: 60px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 460px) {
+  .banner-btn-services {
+    margin-bottom: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
