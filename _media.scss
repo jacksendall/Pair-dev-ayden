@@ -1,8 +1,8 @@
 //Media queries
 
 @media (max-width: 1199px) {
-    .phone-number {
-        max-width: 80px;
+    .welcome-img img {
+        height: 50%;
     }
 }
 
@@ -18,5 +18,15 @@
     }
     .banner-btn-services {
         margin-bottom: 10px;
+    }
+    .welcome-img {
+        display: none;
+    }
+    .contact-us-flex {
+        flex-wrap: wrap;
+    }
+    .btn-wrapper {
+        text-align: left;
+        padding: 10px 0px 0px 0px;
     }
 }

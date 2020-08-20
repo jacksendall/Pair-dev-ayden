@@ -98,10 +98,10 @@ textarea {
 }
 
 .burger-menu {
-  background-color: #000;
+  background-color: #fff;
   height: 60px;
   width: 60px;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   border-radius: 5px;
   padding: 10px 0px;
   display: none;
@@ -116,11 +116,11 @@ textarea {
 }
 
 .burger-menu .burger-line {
-  background-color: #fff;
+  background-color: #24284b;
   width: 40px;
   height: 5px;
-  border: 1px solid #fff;
-  border-radius: 5px;
+  border: 1px solid #24284b;
+  border-radius: 10px;
 }
 
 .banner {
@@ -592,8 +592,8 @@ footer h4 {
 }
 
 @media (max-width: 1199px) {
-  .phone-number {
-    max-width: 80px;
+  .welcome-img img {
+    height: 50%;
   }
 }
 
@@ -611,6 +611,17 @@ footer h4 {
   }
   .banner-btn-services {
     margin-bottom: 10px;
+  }
+  .welcome-img {
+    display: none;
+  }
+  .contact-us-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .btn-wrapper {
+    text-align: left;
+    padding: 10px 0px 0px 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */
