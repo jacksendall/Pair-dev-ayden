@@ -20,15 +20,31 @@ textarea {
   max-height: 300px;
 }
 
+html {
+  width: 100%;
+}
+
 .actions,
 .brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
 }
 
 .actions img,
 .brand img {
   padding: 10px 0px;
-  height: 80px;
+  height: auto;
+  width: 100%;
+  max-width: 240px;
+  min-width: 150px;
 }
 
 .flex-wrapper {
@@ -598,6 +614,9 @@ footer h4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .phone-number {
+    display: block;
   }
 }
 /*# sourceMappingURL=style.css.map */
