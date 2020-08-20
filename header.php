@@ -17,6 +17,7 @@
         <div class="header-wrapper">
             <div class="container">
                 <div class="header-content">
+<<<<<<< Updated upstream
                     <div class="brand">
                         <!-- <h1>Sharon Wray</h1>
                         <h3>Accountancy Services</h3> -->
@@ -24,13 +25,23 @@
                         <img src="images/sharon-wray.png" alt="Sharon Wray Accountancy Services">
 
 
+=======
+                    <div class="brand col-lg-4">
+                        <h1>Sharon Wray</h1>
+                        <h3>Accountancy Services</h3>
+>>>>>>> Stashed changes
                     </div>
-                    <div class="actions">
+                    <div class="actions col-lg-8">
                         <a href="../Pair-dev-ayden/services.php" class="btn navbutton">My Services</a>
                         <a href="../Pair-dev-ayden/switch-accountants.php" class="btn navbutton"> Switch Accountants</a>
                         <a href="../Pair-dev-ayden/faq.php" class="btn navbutton">FAQ's</a>
                         <a href="../Pair-dev-ayden/contact.php" class="btn navbutton">Contact Us</a>
-                        <a class="btn navbutton phone-number"><strong>01953 687077</strong></a>
+                        <a class="btn navbutton phone-number"><i class="fas fa-phone-alt"></i><strong>01953 687077</strong></a>
+                        <div class="burger-menu">
+                            <div class="burger-line"></div>
+                            <div class="burger-line"></div>
+                            <div class="burger-line"></div>
+                        </div>
                     </div>
                 </div>
             </div>

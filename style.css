@@ -62,10 +62,12 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.phone-number {
-  color: white;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbutton {
@@ -77,6 +79,36 @@ textarea {
 
 .navbutton:hover {
   color: white;
+}
+
+.phone-number i {
+  padding-right: 5px;
+}
+
+.burger-menu {
+  background-color: #000;
+  height: 60px;
+  width: 60px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px 0px;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.burger-menu .burger-line {
+  background-color: #fff;
+  width: 40px;
+  height: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
 }
 
 .banner {
@@ -550,5 +582,22 @@ footer h4 {
 .sa-contact-button a:hover {
   background-color: #fff;
   color: #24284b;
+}
+
+@media (max-width: 1199px) {
+  .phone-number {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbutton {
+    display: none;
+  }
+  .burger-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=style.css.map */

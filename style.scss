@@ -1,5 +1,5 @@
-@import "colors";
-@import "contact";
+@import "colors",
+        "contact";
 
 body {
     font-family: "Poppins", sans-serif;
@@ -21,6 +21,8 @@ input,
 textarea{
     max-height: 300px;
 }
+
+//header
 
 .actions,
 .brand {
@@ -47,17 +49,41 @@ textarea{
 }
 .actions{
     display: flex;
-    
-    
+    justify-content: space-evenly;
+    align-items: center;
 }
-.phone-number{
-    color: white;
-}
+
 .navbutton{
     color: white;
     align-self: center;
     &:hover{
         color: white;
+    }
+}
+
+.phone-number {
+    i {
+        padding-right: 5px;
+    }
+}
+
+.burger-menu {
+    background-color: #000;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 0px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .burger-line {
+        background-color: #fff;
+        width: 40px;
+        height: 5px;
+        border: 1px solid #fff;
+        border-radius: 5px;
     }
 }
 
@@ -481,3 +507,5 @@ footer h4 {
         }
     }
 }
+
+@import "media";

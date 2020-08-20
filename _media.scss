@@ -1,2 +1,16 @@
 //Media queries
 
+@media (max-width: 1199px) {
+    .phone-number {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbutton {
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
+}
