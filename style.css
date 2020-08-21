@@ -104,19 +104,22 @@ textarea {
 }
 
 .banner {
-  background-image: url(images/pexels-pixabay-209224.jpg);
+  background-image: url(images/Sharon-Wray-bg.png);
   background-size: cover;
   text-align: right;
+  background-position: 50% 50%;
 }
 
 .banner h2 {
   color: #fff;
-  font-size: 50px;
+  font-size: 3.125rem;
+  text-transform: uppercase;
 }
 
 .banner p {
   color: #fff;
-  font-size: 25px;
+  font-size: 1.5625rem;
+  text-transform: uppercase;
 }
 
 .banner-btn-services {
@@ -130,15 +133,6 @@ textarea {
   color: #24284b;
   border: 1px solid #24284b;
   margin-left: 10px;
-}
-
-.banner-content h2 {
-  padding-top: 60px;
-  text-transform: uppercase;
-}
-
-.banner-content p {
-  text-transform: uppercase;
 }
 
 .banner-btn {
@@ -571,24 +565,27 @@ footer h4 {
   color: #24284b;
 }
 
-@media (max-width: 1199px) {
-  .welcome-img img {
-    height: 50%;
-  }
-}
-
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbutton {
     display: none;
   }
   .burger-menu {
     display: block;
+    position: absolute;
+    right: 0;
   }
-  .phone-number {
-    display: block;
+  .welcome-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-  .welcome-img {
-    display: none;
+}
+
+@media (max-width: 767px) {
+  .banner h2 {
+    font-size: 7vw;
   }
   .contact-us-flex {
     -ms-flex-wrap: wrap;
@@ -611,6 +608,9 @@ footer h4 {
 @media (max-width: 460px) {
   .banner-btn-services {
     margin-bottom: 10px;
+  }
+  .banner p {
+    font-size: 6vw;
   }
 }
 /*# sourceMappingURL=style.css.map */

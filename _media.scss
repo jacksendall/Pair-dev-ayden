@@ -1,23 +1,25 @@
 //Media queries
-
-@media (max-width: 1199px) {
-    .welcome-img img {
-        height: 50%;
-    }
-}
-
-@media (max-width: 767px) {
+    
+@media (max-width: 991px){
     .navbutton {
         display: none;
     }
     .burger-menu {
         display: block;
+        position: absolute;
+        right: 0;
     }
-    .phone-number {
-        display: block;
+    .welcome-section {
+        display: flex;
+        flex-wrap: wrap;
     }
-    .welcome-img {
-        display: none;
+}
+
+@media (max-width: 767px) {
+    .banner {
+        h2 {
+            font-size: 7vw;
+        }
     }
     .contact-us-flex {
         flex-wrap: wrap;
@@ -38,5 +40,10 @@
 @media (max-width: 460px) {
     .banner-btn-services {
         margin-bottom: 10px;
+    }
+    .banner {
+        p {
+            font-size: 6vw;
+        }
     }
 }

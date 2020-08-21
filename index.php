@@ -23,7 +23,7 @@
         <p><strong>A fixed fee or payment plans are available so that you are able to plan for the future without hidden costs.</strong></p>
     </div>
     <div class="col-lg-6 welcome-img" id="welcome-img">
-    <img src="images/pexels-bongkarn-thanyakij-3803252.jpg" alt="office worker">
+    <img src="images/sharon-wray-welcome-img.png" alt="office worker">
     </div>
 </div>
 <div class="contact-us">
