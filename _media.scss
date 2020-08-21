@@ -12,6 +12,12 @@
     .welcome-section {
         display: flex;
         flex-wrap: wrap;
+        .welcome-img {
+            margin-bottom: 60px;
+        }
+        #welcome-img {
+            padding-right: 15px;
+        }
     }
 }
 

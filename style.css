@@ -581,6 +581,12 @@ footer h4 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .welcome-section .welcome-img {
+    margin-bottom: 60px;
+  }
+  .welcome-section #welcome-img {
+    padding-right: 15px;
+  }
 }
 
 @media (max-width: 767px) {
