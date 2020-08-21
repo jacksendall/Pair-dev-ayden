@@ -5,6 +5,44 @@
 
 <div class="container contact-us-wrapper">
     <div class="formwrapper">
+
+    <?php 
+    $fullUrl = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+    if (strpos($fullUrl, "error=emptyfields") == true) {
+        echo "
+        <div class=\"form-return error\">
+        Please complete all fields!
+        <button id=\"hide\">x</button>  
+        </div>
+        ";
+    }
+    elseif (strpos($fullUrl, "error=invalidmail") == true) {
+        echo "
+        <div class=\"form-return error\">
+        Please enter a valid email address!
+        <button id=\"hide\">x</button>  
+        </div>
+        ";
+    }
+    elseif (strpos($fullUrl, "error=sqlerror") == true) {
+        echo "
+        <div class=\"form-return error\">
+        SQL Error! Please contact an administrator.
+        <button id=\"hide\">x</button>  
+        </div>
+        ";
+    }
+    elseif (strpos($fullUrl, "enquiry=success") == true) {
+        echo "
+        <div class=\"form-return success\">
+        Your message has been sent!
+        <button id=\"hide\">x</button>  
+        </div>
+        ";
+    };
+?>
+
         <?php require 'contact.inc.php' ?>
         <form method="POST" action="contact.inc.php">
             <div class="input-labels">

@@ -1,12 +1,12 @@
 
     <footer>
         <div class="container footer-wrapper">
-            <div role="aat" class="col-lg-4">
+            <div role="aat" class="col-lg-4 col-md-4">
                 <img src="images/icons.png" alt="">
                 <p>AAT licensed accountant with over 15 years of accountancy experience.</p>
                 <p>My services included bookkeeping, full accounts production, payroll, VAT and tax.</p>
             </div>
-            <div role="contact-us" class="col-lg-4">
+            <div role="contact-us" class="col-lg-4 col-md-4">
                 <h4>Contact Us</h4>
                 <ul>
                     <li>Sharon Wray Accountancy services</li>
@@ -17,7 +17,7 @@
                     <li>Tel: 01953 687077 or 07894 067905</li>
                 </ul>
             </div>
-            <div role="section" class="col-lg-2">  
+            <div role="section" class="col-lg-2 col-md-4">  
                 <h4>Sections</h4>  
                 <ul>
                     <li>&gt My services</li>
