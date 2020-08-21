@@ -6,6 +6,15 @@ body {
     height: 100%;
 }
 
+.btn{
+    // fixes annoying outline 
+    &:focus{
+        outline: none;
+        border: 0px solid transparent;
+        box-shadow: none;
+    }
+}
+
 h1{
     text-align: center;
 }

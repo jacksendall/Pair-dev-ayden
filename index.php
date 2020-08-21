@@ -33,7 +33,7 @@
             <p>Book your <strong>FREE</strong> accountancy consultation today by contacting<br> me on 07894 067905 or by email: accounts@sharonwray.co.uk,<br>alternatively fillout my online contact form</p>
         </div>
         <div class="col-lg-6 btn-wrapper">
-            <div class="btn">Contact Us Today</div>
+            <a href="../Pair-dev-ayden/contact.php" class="btn">Contact Us Today</a>
         </div>
     </div>
 </div>
