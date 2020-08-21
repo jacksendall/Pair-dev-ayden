@@ -25,7 +25,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($captcha_success->success==false) {
         // What happens when the CAPTCHA wasn't checked
-        echo '<p>Please go back and make sure you check the security CAPTCHA box.</p><br>';
+        header("Location: contact.php?error=recaptcha");
+        exit();
     } else if ($captcha_success->success==true) {
         // If CAPTCHA is successfully completed...
         if (isset($_POST['submit-message'])) {

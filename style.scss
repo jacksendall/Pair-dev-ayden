@@ -8,12 +8,22 @@ body {
 
 .btn{
     // fixes annoying outline 
+        outline: none;
+        border: 0px transparent;
+        box-shadow: none;
     &:focus{
         outline: none;
-        border: 0px solid transparent;
+        border: 0px transparent;
         box-shadow: none;
     }
 }
+
+// hide element
+.hide {
+    display: none;
+    transition: all 1000ms;
+}
+
 
 h1{
     text-align: center;

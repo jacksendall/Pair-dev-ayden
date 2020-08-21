@@ -12,7 +12,7 @@
     if (strpos($fullUrl, "error=emptyfields") == true) {
         echo "
         <div class=\"form-return error\">
-        Please complete all fields!
+        <p>Please complete all fields!</p>
         <button id=\"hide\">x</button>  
         </div>
         ";
@@ -20,7 +20,7 @@
     elseif (strpos($fullUrl, "error=invalidmail") == true) {
         echo "
         <div class=\"form-return error\">
-        Please enter a valid email address!
+        <p>Please enter a valid email address!</p>
         <button id=\"hide\">x</button>  
         </div>
         ";
@@ -28,7 +28,7 @@
     elseif (strpos($fullUrl, "error=sqlerror") == true) {
         echo "
         <div class=\"form-return error\">
-        SQL Error! Please contact an administrator.
+        <p>SQL Error! Please contact an administrator.</p>
         <button id=\"hide\">x</button>  
         </div>
         ";
@@ -36,7 +36,15 @@
     elseif (strpos($fullUrl, "enquiry=success") == true) {
         echo "
         <div class=\"form-return success\">
-        Your message has been sent!
+        <p>Your message has been sent!</p>
+        <button id=\"hide\">x</button>  
+        </div>
+        ";
+    }
+    elseif (strpos($fullUrl, "error=recaptcha") == true) {
+        echo "
+        <div class=\"form-return error\">
+        <p>Error verifying reCAPTCHA, please try again.</p>
         <button id=\"hide\">x</button>  
         </div>
         ";
@@ -81,6 +89,12 @@
         <p class="contact-us-email"><a href="mailto:sharon-wray@example.com">sharon-wray@example.com</a></p>
     </div>
 </div>
+
+<script>
+    document.querySelector("#hide").addEventListener("click", function(event) {
+        document.querySelector(".form-return").classList.add("hide");
+    });
+</script>
 
 <?php
     include 'footer.php';
