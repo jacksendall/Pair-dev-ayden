@@ -1,0 +1,23 @@
+.form-return {
+    // color: white;
+    padding: 10px 0;
+    button {
+        background: none;
+        border: none;
+        float: right;
+        margin-bottom: 5px;
+    }
+    margin-bottom: 16px;
+}
+.success {
+    background-color: lawngreen;
+    border: 1px solid green;
+}
+.error {
+    background-color: tomato;
+    border: 1px solid red;
+    color: white;
+}
+.hide {
+    display: none;
+}

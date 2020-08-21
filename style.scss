@@ -99,6 +99,15 @@ textarea{
     }
 }
 
+.line-break {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    width: 40%;
+    margin-right: 0px;
+}
+
 .banner-btn-services {
     background-color: $primary-color;
     color: #fff;

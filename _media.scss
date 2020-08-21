@@ -1,5 +1,11 @@
 //Media queries
-    
+
+@media (max-width: 1199px) {
+    .line-break {
+        width: 50%;
+    }
+}
+
 @media (max-width: 991px){
     .navbutton {
         display: none;
@@ -19,6 +25,9 @@
             padding-right: 15px;
         }
     }
+    .line-break {
+        width: 65%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -31,7 +40,7 @@
         flex-wrap: wrap;
     }
     .btn-wrapper {
-        text-align: left;
+        text-align: center;
         padding: 10px 0px 0px 0px;
     }
     .contact-us-wrapper {
@@ -40,6 +49,22 @@
     .contact-details {
         margin-top: 60px;
         padding-left: 0px;
+    }
+    .line-break {
+        width: 90%;
+    }
+    .footer-wrapper {
+        text-align: center;
+        img,
+        h4 {
+            margin: 30px 0px;
+        }
+    }
+}
+
+@media (max-width: 509px) {
+    .line-break {
+        width: 95%;
     }
 }
 

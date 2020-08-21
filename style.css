@@ -1,3 +1,30 @@
+.form-return {
+  padding: 10px 0;
+  margin-bottom: 16px;
+}
+
+.form-return button {
+  background: none;
+  border: none;
+  float: right;
+  margin-bottom: 5px;
+}
+
+.success {
+  background-color: lawngreen;
+  border: 1px solid green;
+}
+
+.error {
+  background-color: tomato;
+  border: 1px solid red;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   height: 100%;
@@ -121,6 +148,15 @@ textarea {
   color: #fff;
   font-size: 1.5625rem;
   text-transform: uppercase;
+}
+
+.line-break {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+  width: 40%;
+  margin-right: 0px;
 }
 
 .banner-btn-services {
@@ -566,6 +602,12 @@ footer h4 {
   color: #24284b;
 }
 
+@media (max-width: 1199px) {
+  .line-break {
+    width: 50%;
+  }
+}
+
 @media (max-width: 991px) {
   .navbutton {
     display: none;
@@ -588,6 +630,9 @@ footer h4 {
   .welcome-section #welcome-img {
     padding-right: 15px;
   }
+  .line-break {
+    width: 65%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -599,7 +644,7 @@ footer h4 {
         flex-wrap: wrap;
   }
   .btn-wrapper {
-    text-align: left;
+    text-align: center;
     padding: 10px 0px 0px 0px;
   }
   .contact-us-wrapper {
@@ -609,6 +654,22 @@ footer h4 {
   .contact-details {
     margin-top: 60px;
     padding-left: 0px;
+  }
+  .line-break {
+    width: 90%;
+  }
+  .footer-wrapper {
+    text-align: center;
+  }
+  .footer-wrapper img,
+  .footer-wrapper h4 {
+    margin: 30px 0px;
+  }
+}
+
+@media (max-width: 509px) {
+  .line-break {
+    width: 95%;
   }
 }
 

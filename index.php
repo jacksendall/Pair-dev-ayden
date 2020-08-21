@@ -6,6 +6,7 @@
     <div class="container">
         <div class="banner-content">
             <h2>fully qualified<br> aat licensed <br>accountant</h2>
+            <hr class="line-break">
             <p>professional and affordable<br> service, contact us today<br> for a free consultation</p>
             <div class="banner-btn">
                 <a href="" class="btn banner-btn-services">See Our Services</a>
