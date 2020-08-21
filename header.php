@@ -25,7 +25,7 @@
                         <a href="../Pair-dev-ayden/switch-accountants.php" class="btn navbutton"> Switch Accountants</a>
                         <a href="../Pair-dev-ayden/faq.php" class="btn navbutton">FAQ's</a>
                         <a href="../Pair-dev-ayden/contact.php" class="btn navbutton">Contact Us</a>
-                        <a class="btn navbutton phone-number"><i class="fas fa-phone-alt"></i><strong>01953 687077</strong></a>
+                        <a href="tel:01953 687077" class="btn navbutton phone-number"><i class="fas fa-phone-alt"></i><strong>01953 687077</strong></a>
                         <i class="fas fa-bars burger-menu"></i>
                     </div>
                 </div>

@@ -133,6 +133,17 @@ footer {
     background-color: $primary-color;
     bottom: 0;
     padding-top: 20px;
+    h4 {
+        margin-bottom: 16px;
+        font-weight: 650;
+    }
+    ul {
+        list-style: none;
+        padding: 0px;
+    }
+    a {
+        color: #fff;
+    }
 }
 
 .footer-wrapper {
@@ -140,16 +151,6 @@ footer {
     color: #fff;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0px;
-}
-
-footer h4 {
-    margin-bottom: 16px;
-    font-weight: 650;
 }
 
 .copyright-partition {
@@ -285,6 +286,12 @@ footer h4 {
     display: flex;
     align-items: flex-start;
     padding: 0;
+    a {
+        color: $primary-color;
+        &:hover {
+            color: $primary-color;
+        }
+    } 
 }
 
 .tick-box {
@@ -296,18 +303,24 @@ footer h4 {
     h2 {
         margin-bottom: 20px;
     }
+    a {
+        color: $primary-color;
+        &:hover {
+            color: $primary-color;
+        }
+    }
 }
-
-.contact-details 
  
 .contact-us-number {
     font-size: 30px;
     color: $primary-color;
+    text-decoration: underline;
 }
 
 .contact-us-email {
     font-size: 24px;
     color: $primary-color;
+    text-decoration: underline;
 }
 
 .contact-row-a,

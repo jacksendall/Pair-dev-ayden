@@ -76,9 +76,9 @@
     <div class="contact-details col-lg-4">
         <h2>Contact Us Today</h3>
         <h3>Call us on:</h3>
-        <p class="contact-us-number">01953 687077</p>
+        <p class="contact-us-number"><a href="tel:01953 687077">01953 687077</a></p>
         <h3>Email us on:</h3>
-        <p class="contact-us-email">sharon-wray@example.com</p>
+        <p class="contact-us-email"><a href="mailto:sharon-wray@example.com">sharon-wray@example.com</a></p>
     </div>
 </div>
 
