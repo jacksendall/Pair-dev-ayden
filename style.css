@@ -12,8 +12,9 @@
 }
 
 .success {
-  background-color: lawngreen;
-  border: 1px solid green;
+  background-color: #158533;
+  border: 1px solid #1e873a;
+  color: #fff;
 }
 
 .error {
@@ -24,6 +25,10 @@
 
 .hide {
   display: none;
+}
+
+#hide {
+  color: white;
 }
 
 body {
