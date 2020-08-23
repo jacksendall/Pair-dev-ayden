@@ -53,28 +53,36 @@
 
         <?php require 'contact.inc.php' ?>
         <form method="POST" action="contact.inc.php">
+
             <div class="input-labels">
                 <label for="name" class="col-6 contact-top-label">Name <span class="label-symbol">*</span></label>
                 <label for="name" class="col-6 contact-bottom-label">Email <span class="label-symbol">*</span></label>
             </div>
+
             <div class="contact-row-a">
                 <input role="name" class="col-6 contact-input contact-name" type="text" name="name">
                 <input role="email" class="col-6 contact-input contact-email" type="email" name="mailid">
             </div>
+
             <div class="input-labels">
                 <label for="name" class="col-6 contact-top-label">Phone Number <span class="label-symbol">*</span></label>
                 <label for="name" class="col-6 contact-bottom-label">Subject <span class="label-symbol">*</span></label>
             </div>
+
             <div class="contact-row-b">
                 <input role="phone" class="col-6 contact-input contact-phone" type="phone" name="phone">
                 <input role="subject" class="col-6 contact-input contact-subject" type="subject" name="subject">
             </div>
+
             <label for="name" class="col-6 contact-top-label">Message <span class="label-symbol">*</span></label>
+            <!-- Message -->
             <textarea class="col-12 contact-message" name="message"></textarea>
+            <!-- GDPR Tickbox -->
             <div class="col-12 contact-checkbox">   
                 <input type="checkbox" name="marketing" class="tick-box">
                 <p class="inline-checkbox">Please tick this box if you wish to receive marketing information from us. Please see our <a href="/privacy">Privacy Policy</a> for more information on how we use your data.</p>
             </div>
+            <!-- Google reCAPTCHA -->
             <div class="g-recaptcha" data-sitekey="6LfK_b8ZAAAAAL8ad-IIXgZLS76U0_ci3lyWCT4v"></div>
 
             <button class="btn btn-success" name="submit-message">Submit</button>
@@ -91,6 +99,7 @@
 </div>
 
 <script>
+    // Hides the error messages
     document.querySelector("#hide").addEventListener("click", function(event) {
         document.querySelector(".form-return").classList.add("hide");
     });
